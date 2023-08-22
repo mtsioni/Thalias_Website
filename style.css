@@ -2,14 +2,6 @@
     background-color: #F1F0E8;
 }
 
-.container{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 200px 200px 900px; 
-    gap: 10px;
-    margin-top: 45px; 
-
-}
 
 .item{
     display: flex;
@@ -21,7 +13,6 @@
 }
 
 .rainbow{
-    margin-left: 400px; 
+   margin-left: 60%; 
 }
 
-/* σχολιο */
