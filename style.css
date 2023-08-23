@@ -16,3 +16,35 @@
    margin-left: 60%; 
 }
 
+.main{
+    display: grid;
+    grid-template-rows: 1fr 1fr  1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px; 
+}
+
+.main-left{
+   margin-left: 375px;
+}
+
+.big-text{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 65px; 
+    font-weight: normal;
+}
+
+.small-text{
+    font-family: 'Poiret One', cursive;
+    font-size: 32px;  
+    font-weight: 300;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
