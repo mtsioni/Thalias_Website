@@ -1,6 +1,7 @@
 .body{
     background-color: #F1F0E8;
-    box-sizing: content-box; 
+    box-sizing: border-box; 
+    height: 100vh;  
 }
 
 .header-part{
@@ -38,7 +39,7 @@
 
 .main{
     display: grid;
-    grid-template-rows: 1fr 1fr  1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     margin-top: 130px; 
 }
@@ -84,4 +85,31 @@
     font-size: 55px;
     text-align: right; 
     padding: 18px;  
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #DAB88B, rgba(0, 0, 0, 0));
+}
+
+.footer-content{
+    background-color: #EEE0C9;
+    display: flexbox; 
+    flex-direction: row-reverse;
+    height: 120px;
+}
+
+.footer-content > h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
+    font-size: x-large;
+    letter-spacing: 8px;
+    
+}
+
+.footer-content > p{
+    margin-left: 20px; 
+    font-family: 'Quicksand', sans-serif;
 }
