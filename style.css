@@ -1,4 +1,4 @@
-.body{
+body{
     background-color: #F1F0E8;
     box-sizing: border-box; 
     height: 100vh;  
@@ -105,11 +105,11 @@ hr {
     justify-content: center;
     font-family: 'Poiret One', cursive;
     font-size: x-large;
-    letter-spacing: 8px;
-    
+    letter-spacing: 8px;   
 }
 
 .footer-content > p{
     margin-left: 20px; 
     font-family: 'Quicksand', sans-serif;
+    font-size: large;
 }
