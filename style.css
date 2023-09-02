@@ -95,9 +95,7 @@ hr {
 
 .footer-content{
     background-color: #EEE0C9;
-    display: flexbox; 
-    flex-direction: row-reverse;
-    height: 120px;
+    height: 250px;  
 }
 
 .footer-content > h3{
@@ -111,5 +109,5 @@ hr {
 .footer-content > p{
     margin-left: 20px; 
     font-family: 'Quicksand', sans-serif;
-    font-size: large;
+    font-size: x-large;
 }

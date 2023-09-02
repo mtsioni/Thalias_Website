@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Calligraffitti&family=Homemade+Apple&family=Oooh+Baby&family=Poiret+One&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -11,69 +14,203 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
         integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="works.css">
-    <title>Document</title>
+    <title>Works</title>
     <style>
         body{
             background-color: #F1F0E8;
         }
+
+        .header{
+            background-color: #EEE0C9;
+        }
+
+        body{
+            background-color: #F1F0E8;
+        }
+
+        .space{
+            margin-left: 25px;
+            margin-right: 50px; 
+            font-family: 'Poiret One', cursive;
+            font-weight: bolder; 
+            font-size: x-large;
+        }
+        
+        .button{
+            margin-top: 65px;  
+        }
+
+        .rainbow{
+            margin-left: 120px;
+        }
+
+        hr {
+            border: 0;
+            height: 5px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #85603F, rgba(0, 0, 0, 0));
+            background-color: #DAB88B;
+        }
+
+        .lead{
+            font-family: 'Quicksand', sans-serif;
+            font-size: x-large;
+        }     
+        
+        .featurette-heading{
+            font-family: 'Poiret One', cursive;
+            font-size: 3em;
+            font-weight: bolder;
+        }
+
+        .footer-content{
+            background-color: #EEE0C9;
+            display: flexbox; 
+            flex-direction: row-reverse;
+            height: 120px;
+        }
+
+        .footer-content > h3{
+            display: flex;
+            justify-content: center;
+            font-family: 'Poiret One', cursive;
+            font-size: x-large;
+            font-weight: bolder;
+            letter-spacing: 8px;  
+            margin-top: 24px;
+            margin-bottom: 24px; 
+        }   
+
+        .footer-content > p{
+            margin-left: 20px; 
+            margin-top: 16px;
+            margin-bottom: 5px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 22px;        
+        }
     </style>
 </head>
 <body>
+    <section class="header">
+        <div class="container">
+            <header class="d-flex flex-wrap py-3 border-bottom">
+                <a href="works.html" class="link-body-emphasis text-decoration-none button">
+                    <span class="space">WORKS</span>
+                </a>
+                <a href="contact.html" class="link-body-emphasis align-items-center text-decoration-none button">
+                    <span class="space">CONTACT ME</span>
+                </a>
+                <a href="index.html">
+                    <img src="images/rainbow.svg" alt="rainbow-logo" height="110" class="d-flex rainbow">
+                </a>
+            </header>
+        </div>
+    </section>
+    <hr style="margin-top: 0;">
+
     <section class="content-section" id="portfolio">
-        <div class="container px-4 px-lg-5">
-            <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Portfolio</h3>
-                <h2 class="mb-5">Recent Projects</h2>
+        <br>
+        <br>
+        <br>
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">A dummy webpage.</h2> <br>
+              <p class="lead">One of the first projects that I made. It's purely build in basic HTML & CSS. <br>
+                The reason of this project was to apply what I've learned about the -float- element and the basics of flexbox.</p>
             </div>
-            <div class="row gx-0">
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Stationary</div>
-                                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="...">
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Ice Cream</div>
-                                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="...">
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Strawberries</div>
-                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="...">
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Workspace</div>
-                                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="...">
-                    </a>
-                </div>
+            <div class="col-md-5">
+                <a href="https://mtsioni.github.io/dummy_webpage/"><img src="images/dummy.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="" width="800" height="680"
+                role="img"preserveAspectRatio="xMidYMid slice" focusable="false"></a> 
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr class="featurette-divider">
+        <br>
+        <br>
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Modrian Painting.</h2> <br>
+              <p class="lead">A replica of Piet Mondrian painting called "Composition No III, with Red, Blue, Yellow and Black", using CSS Grid</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://mtsioni.github.io/mondrian_painting/"><img src="images/modrian_painting.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="" width="800" height="680"
+                    role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></a> 
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr class="featurette-divider">
+        <br>
+        <br>
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Pricing Table </h2> <br>
+              <p class="lead">A price mockup table of a phone company, using Flexbox</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="https://mtsioni.github.io/pricing_table/"><img src="images/pricing_table.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="" width="800" height="680"
+                    role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></a> 
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr class="featurette-divider">
+        <br>
+        <br>
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <br>
+              <h2 class="featurette-heading fw-normal lh-1">Oh yeah, that's TinDog - Tinder for dogs. <a href="https://mtsioni.github.io/startup_TinDog/"><span class="text-body-secondary">See for yourself.</span></a></h2> <br>
+              <p class="lead">As I was following a Udemy course called "The Complete Web Development Bootcamp" by Dr. Angela Yu. There was a point in the course, in which we had to combine our knowlegde about CSS, Flexbox, Grid & Bootstrap, we created this mockup website of an imaginary startup.</p>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="images/tindog.mp4" ></iframe>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr class="featurette-divider">
+        <br>
+        <br>
+        <div class="row featurette">
+            <div class="col-12">
+              <h2 class="fw-normal lh-1" style="font-family: 'Quicksand', sans-serif;">And lastly, if you want to see my full portfolio, click the link below. <br><br> 
+                    <a href="https://github.com/mtsioni"><span class="text-body-secondary" style="font-family: 'Oooh Baby', cursive; font-size: 2em;">Checkmate♟️</span></a>
+                </h2>
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="footer-content">       
+            <p class="float-end">
+                <a href="#" class="clickable link"  style="text-decoration: none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="black" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                    </svg>
+                </a>
+            </p>
+            <hr>
+            <h3 >Thalia-Maria Web Dev</h3>
+            <p>&copy; Thalia-Maria Tsioni. All rights reserved. 2023</p>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+    <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon="{&quot;rayId&quot;:&quot;7fcde30bff40ef04&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2023.8.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>
 </html>
 
